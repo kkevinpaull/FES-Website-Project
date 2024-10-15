@@ -12,7 +12,7 @@ nav{
     display:flex;
     justify-content:space-between;
     align-items:center;
-    padding: 0 16px;
+    padding: 0 24px;
     background-color: #cafdff; 
 }
 
@@ -178,11 +178,15 @@ footer{
 }
 
 footer__links{
-    margin-bottom: 32px;
+    margin-bottom: 64px;
 }
 
 .footer__link{
     padding: 0 16px;
+}
+
+.footer__copyright{
+    margin:24px;
 }
 
 
