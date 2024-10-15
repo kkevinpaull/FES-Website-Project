@@ -63,7 +63,7 @@ li {
 
 .row{
     width:100%;
-    max-width:1300px;
+    max-width: 1300px;
     margin: 0 auto;
     display: flex;
     align-items: center;
@@ -121,6 +121,7 @@ img{
     font-size:20px;
     line-height:1.5;
     margin-bottom: 24px;
+    text-justify: auto;
 }
 
 /*
@@ -189,11 +190,8 @@ footer__links{
 @media (max-width: 768px) {
 
     .row {
+        display: flex;
         flex-direction: column;
-    }
-
-    header{
-        height: calc(100vh - 70px);
     }
 
     .home__description {
